@@ -3,7 +3,7 @@ Pibot is the IRC outputer for the [logbot](https://github.com/kafitz/logbot) pro
 is a stripped down version of [phenny](http://inamidst.com/phenny/) that receives messages 
 using redis' pubsub as JSON. The messages are sent via a channel named ```irc_msg``` in the 
 format:
-```{'type': 'message', 'data': {'channel': #ircchannel, 'text': 'abcde'} }
+```{'type': 'message', 'data': {'channel': #ircchannel, 'text': 'abcde'} }```
 
 #### Setup
 1. Pibot simply requires the redis python package:
